@@ -1,0 +1,61 @@
+#pingBody{
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+    border: 2px solid gray;
+}
+
+#img{
+    width: 100%;
+    height: auto;
+}
+
+#scoreKeep {
+    border-bottom: 2px solid gray;
+}
+#scoreKeep>p{
+    margin-left: 15px;
+}
+
+#inText{
+    margin-left: 15px;
+}
+
+#btn{
+    margin-top: 15px;
+    display: flex; 
+}
+
+.btnIn{
+    width: 200px;
+    padding: 10px 0; 
+    margin: 0; 
+}
+
+#play1{
+    background-color: rgb(19, 114, 19);
+    color:white;
+    font-size: 20px;
+
+}
+
+#play2{
+    background-color: rgb(62, 110, 223);
+    color:white;
+    font-size: 20px;
+    
+}
+
+#reset{
+    background-color: rgb(214, 35, 35);
+    color:white;
+    font-size: 20px;
+    
+}
+
+#nums{
+    padding: 5px 10px;
+    border-radius: 12px;
+}

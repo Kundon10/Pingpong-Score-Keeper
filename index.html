@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img.css">
+    <title>PingPong Game</title>
+
+</head>
+<body>
+    <div id="pingBody">
+        <img src="pingpong.png" alt="pingpong" id="img">
+        <div id="scoreKeep">
+            <p>Ping Pong Score Keeper</p>
+        </div>
+        <div id="inText">
+            <h1><span id="score1">0</span> to <span id="score2">0</span></h1>
+            <p>Use the buttons below to keep score</p>
+            <form action="#" id="form">
+                <label for="#">Playing To</label>
+                <select name="num" id="nums">
+                    <option value="1" class="nombre">1</option>
+                    <option value="2" class="nombre">2</option>
+                    <option value="3" class="nombre">3</option>
+                    <option value="4" class="nombre">4</option>
+                    <option value="5" class="nombre">5</option>
+                    <option value="6" class="nombre">6</option>
+                    <option value="7" class="nombre">7</option>
+                    <option value="8" class="nombre">8</option>
+                    <option value="9" class="nombre">9</option>
+                    <option value="10" class="nombre">10</option>
+                </select>
+            </form>
+        </div>
+        <div id="btn">
+            <button class="btnIn" id="play1">+1 Player One</button>
+            <button class="btnIn" id="play2">+1 Player Two</button>
+            <button class="btnIn" id="reset">Reset</button>
+        </div>
+    </div>
+
+
+   <script src="app.js">
+   </script>
+</body>
+</html>
